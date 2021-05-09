@@ -49,6 +49,12 @@
         <div class="effect-wrap">
             <div class="effect effect-2">
             </div>
+            <div class="effect effect-3">
+                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div> <div></div><div></div><div></div><div></div>
+            </div>
+            <div class="effect effect-4">
+                <div></div>
+            </div>
         </div>
         <div class="container">
             <div class="row full-screen align-items-center">
