@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>DKG</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="skin-1.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/skin-1.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    
 
 </head>
 <body>
@@ -72,6 +74,17 @@
             </div>
 
         </div>
+    </section>
+
+    <section class="about-section section">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-heading="main info">About Me</h2>
+                </div>
+            </div>
+        </div>
+
     </section>
 
 </body>
