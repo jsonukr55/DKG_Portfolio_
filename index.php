@@ -89,10 +89,10 @@
                         <img src="asset/propic.png" class="outer-shadow" alt="profile pic">
                     </div>
                     <div class="social-links">
-                        <a href="#" class="outer-shadow hover-in-shadow" ><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="outer-shadow hover-in-shadow" ><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="outer-shadow hover-in-shadow" ><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" class="outer-shadow hover-in-shadow" ><i class="fab fa-github"></i></a>
+                        <a href="https://www.facebook.com/Sonum.6/" class="outer-shadow hover-in-shadow" ><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/insta_sonu_/" class="outer-shadow hover-in-shadow" ><i class="fab fa-instagram"></i></a>
+                        <a href="www.linkedin.com/in/dhananjaykumargupta2" class="outer-shadow hover-in-shadow" ><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/jsonukr55" class="outer-shadow hover-in-shadow" ><i class="fab fa-github"></i></a>
 
 
                     </div>
