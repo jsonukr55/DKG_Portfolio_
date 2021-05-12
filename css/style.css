@@ -628,3 +628,9 @@ img{
     line-height: 26px;
     margin: 15px 0 0;
 }
+
+.service-section{
+    background-color: red;
+    padding: 80px 0 80px;
+    height: 100vh;
+}
