@@ -62,8 +62,8 @@
             <div class="row full-screen align-items-center">
                 <div class="home-text">
                     <p>Hello</p>
-                    <h2>I'm Dhananjay Kumar Gupta</h2>
-                    <h1>Desigantion</h1>
+                    <h2>I'm Dhanajay Kumar Gupta.</h2>
+                    <h1><span class="typed"></span></h1>
                     <a href="#" class="btn-1 outer-shadow hover-in-shadow">More About Me</a>
                 </div>
                 <div class="home-img">
@@ -72,7 +72,7 @@
                     </div>
                 </div>
             </div>
-
+            
         </div>
     </section>
 
@@ -98,8 +98,7 @@
                     </div>
                 </div>
                 <div class="about-info">
-                    <p><span>Hi! My name is Dhananajay kr. Gupta.</span>  I'm student of B.tech Computer Science Enggneering final year.
-                    This website is my final year project as well as portfolio of my work.  </p>
+                    <p><span>Hi! My name is Dhananajay kr. Gupta. </span><span id="type" class="type"></span></p>
                     <a href="asset/Resume.pdf" class="btn-1 outer-shadow hover-in-shadow" target="_blank">Download CV</a>
                     <a href="#" class="btn-1 outer-shadow hover-in-shadow">Hire Me</a>
                 </div>
@@ -271,14 +270,32 @@
                         <div class="icon inner-shadow">
                             <i class="fas fas-mobile-alt"></i>
                         </div>
+                        <h3>Responsive design</h3>
                     </div>
                 </div>
+                
             </div>
         </div>
 
     </section>
 
 <script src="JavaScript/index.js"></script>
+<script src="JavaScript/typed.min.js"></script>
+<script>
+    var typed = new Typed('.typed', {
+    strings: [ 'Web Developer','Software Engginner'],
+    typeSpeed: 90,
+    backSpeed: 50,
+    loop:true,
+    });
+</script>
+<script>
+    var typed = new Typed('.type', {
+    strings: [" I'm student of B.tech Computer Science Enggneering final year. This website is my final year project as well as portfolio of my work."],
+    typeSpeed: 40,
+    loop:false,
+    });
+</script>
 
 </body>
 </html>
