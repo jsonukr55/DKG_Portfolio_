@@ -32,10 +32,10 @@
         <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
         <div class="nav-menu-inner">
             <ul>
-                <li><a herf="#" class="inner-shadow active">home</a></li>
-                <li><a href="#" class="outer-shadow hover-in-shadow">about</a></li>
-                <li><a href="#" class="outer-shadow hover-in-shadow">contact me</a></li>
-                <li><a href="#" class="outer-shadow hover-in-shadow">resume</a></li>
+                <li><a herf="#home" class=" link-items inner-shadow active">home</a></li>
+                <li><a href="#about" class=" link-items outer-shadow hover-in-shadow">about</a></li>
+                <li><a href="#contact" class=" link-items outer-shadow hover-in-shadow">contact me</a></li>
+                <li><a href="asset/Resume.pdf" class=" link-items outer-shadow hover-in-shadow">resume</a></li>
 
             </ul>
         </div>
@@ -43,7 +43,7 @@
     </nav>
     <!-- Navigations end -->
     <!-- Home sec -->
-    <section class="home-section section">
+    <section class="home-section section" id="home">
         <div class="effect-wrap">
             <div class="effect effect-1">
             </div>
@@ -64,7 +64,7 @@
                     <p>Hello</p>
                     <h2>I'm Dhanajay Kumar Gupta.</h2>
                     <h1><span class="typed"></span></h1>
-                    <a href="#" class="btn-1 outer-shadow hover-in-shadow">More About Me</a>
+                    <a href="#about" class=" link-items btn-1 outer-shadow hover-in-shadow">More About Me</a>
                 </div>
                 <div class="home-img">
                     <div class="img-box inner-shadow">
@@ -76,7 +76,7 @@
         </div>
     </section>
 
-    <section class="about-section section ">
+    <section class="about-section section " id="about">
         <div class="container ">
             <div class="row">
                 <div class="section-title">
@@ -89,10 +89,10 @@
                         <img src="asset/propic.png" class="outer-shadow" alt="profile pic">
                     </div>
                     <div class="social-links">
-                        <a href="https://www.facebook.com/Sonum.6/" class="outer-shadow hover-in-shadow" ><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/insta_sonu_/" class="outer-shadow hover-in-shadow" ><i class="fab fa-instagram"></i></a>
-                        <a href="www.linkedin.com/in/dhananjaykumargupta2" class="outer-shadow hover-in-shadow" ><i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://github.com/jsonukr55" class="outer-shadow hover-in-shadow" ><i class="fab fa-github"></i></a>
+                        <a href="https://www.facebook.com/Sonum.6/" class="outer-shadow hover-in-shadow" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/insta_sonu_/" class="outer-shadow hover-in-shadow" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/dhananjaykumargupta2/" class="outer-shadow hover-in-shadow" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/jsonukr55" class="outer-shadow hover-in-shadow" target="_blank"><i class="fab fa-github"></i></a>
 
 
                     </div>
@@ -100,7 +100,7 @@
                 <div class="about-info">
                     <p><span>Hi! My name is Dhananajay kr. Gupta. </span><span id="type" class="type"></span></p>
                     <a href="asset/Resume.pdf" class="btn-1 outer-shadow hover-in-shadow" target="_blank">Download CV</a>
-                    <a href="#" class="btn-1 outer-shadow hover-in-shadow">Hire Me</a>
+                    <a href="#contact" class="btn-1 outer-shadow hover-in-shadow">Hire Me</a>
                 </div>
             </div>
 
@@ -257,7 +257,7 @@
         </div>
     </section>
 
-    <section class="service-section">
+    <section class="service-section section" id="services">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -266,24 +266,120 @@
             </div>
             <div class="row">
                 <div class="service-item">
-                    <div class="service-item-inner outer-shadow">
+                    <div class="service-item-inner outer-shadow hover-bg">
                         <div class="icon inner-shadow">
-                            <i class="fas fas-mobile-alt"></i>
+                            <i class="fas fa-mobile-alt"></i>
                         </div>
                         <h3>Responsive design</h3>
                     </div>
                 </div>
-                
+                <div class="service-item">
+                    <div class="service-item-inner outer-shadow hover-bg">
+                        <div class="icon inner-shadow">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Clean Code</h3>
+                    </div>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-item-inner outer-shadow hover-bg">
+                        <div class="icon inner-shadow">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <h3>Web design</h3>
+                    </div>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-item-inner outer-shadow hover-bg">
+                        <div class="icon inner-shadow">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <h3>Software Developement</h3>
+                    </div>
+                </div>
+            
             </div>
         </div>
 
+        </div>
+
     </section>
+
+    <section class="contact-section section" id="contact" >
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2 data-heading="contact">Get In Touch</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="contact-item">
+                        <div class="contact-item-inner outer-shadow">
+                            <i class="fas fa-phone"></i>
+                            <span>Phone</span>
+                            <p>7903858722</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-item-inner outer-shadow">
+                            <i class="fas fa-envelope"></i>
+                            <span>E-mail</span>
+                            <p>jsonukr55.sg@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-item-inner outer-shadow">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Address</span>
+                            <p>Chanch Pottery Chirkunda, Dhanbad(JH), 828202</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row">
+                                <div class="w-50">
+                                    <div class="input-group outer-shadow hover-in-shadow">
+                                        <input type="text" placeholder="Name" class="input-control">
+                                    </div>
+                                    <div class="input-group outer-shadow hover-in-shadow">
+                                        <input type="text" placeholder="E-Mail" class="input-control">
+                                    </div>
+                                    <div class="input-group outer-shadow hover-in-shadow">
+                                        <input type="text" placeholder="Subject" class="input-control">
+                                    </div>
+                                </div>
+                                <div class="w-50">
+                                    <div class="input-group outer-shadow hover-in-shadow">
+                                        <textarea class="input-control" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="submit-btn">
+                                    <button type="submit" class="btn-1 outer-shadow hover-in-shadow">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+    
 
 <script src="JavaScript/index.js"></script>
 <script src="JavaScript/typed.min.js"></script>
 <script>
     var typed = new Typed('.typed', {
-    strings: [ 'Web Developer','Software Engginner'],
+    strings: [ 'Web Developer','Software Engineer'],
     typeSpeed: 90,
     backSpeed: 50,
     loop:true,
@@ -291,7 +387,7 @@
 </script>
 <script>
     var typed = new Typed('.type', {
-    strings: [" I'm student of B.tech Computer Science Enggneering final year. This website is my final year project as well as portfolio of my work."],
+    strings: [" I'm student of B.tech Computer Science Engneering final year. This website is my final year project as well as portfolio of my work."],
     typeSpeed: 40,
     loop:false,
     });

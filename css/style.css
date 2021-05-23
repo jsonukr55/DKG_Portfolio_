@@ -14,6 +14,7 @@
     --outer-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
     --outer-shadow-0: 0 0 0 #d0d0d0, 0 0 0 #f8f8f8;
     --inner-shadow: inset 3px 3px 3px #d0d0d0 , inset -3px -3px 3px #f8f8f8;
+    --inner-shadow-0: 0 0 0 #d0d0d0 , 0 0 0 #f8f8f8
 
 }
 /* ----------------------- */
@@ -105,6 +106,7 @@ img{
     border-radius: 10px;
     transition: all 0.3s ease;
     display: inline-block;
+    border: none;
 }
 .btn-1::after{
     border-radius: 30px;
@@ -638,6 +640,160 @@ img{
     /* background-color: red; */
     padding: 80px 0 80px;
     height: 100vh;
+    margin-bottom: 200px;
 }
 
+.service-section .service-item{
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.service-section .service-item-inner{
+    padding: 50px 15px;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    
+}
+
+.service-section .service-item-inner:hover .icon i{
+    color: var(--skin-color);
+}
+
+.service-section .service-item-inner .icon{
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    display: block;
+    margin: 0 auto 30px;
+    position: relative;
+
+}
+
+.service-section .service-item-inner .icon::after{
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.service-section .service-item-inner:hover .icon{
+    box-shadow: var(--inner-shadow-0);
+}
+
+.service-section .service-item-inner:hover .icon::after{
+    box-shadow: var(--outer-shadow);
+}
+
+.service-section .service-item-inner i{
+    font-size: 25px;
+    line-height: 60px;
+    border-radius: 10px;
+}
+
+.service-section .service-item-inner h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-black-700);
+    margin: 0 0 10px;
+    transition: all 0.3s ease;
+    text-transform: capitalize;
+}
+
+.contact-section{
+    padding: 80px 0 80px;
+    min-height: 100vh;
+}
+
+.contact-section .contact-item{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 15px;
+    display: flex;
+}
+
+.contact-section .contact-item-inner{
+    padding: 30px 15px;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+.contact-section .contact-item i{
+    font-size: 25px;
+    color: var(--skin-color);
+}
+
+.contact-section .contact-item span{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--text-black-700);
+    margin: 10px 0 5px;
+}
+
+.contact-section .contact-item-inner p{
+    font-size: 16px;
+    color: var(--text-black-600);
+}
+
+.contact-section .contact-form{
+    flex: 0 0 100%;
+    max-width: 100%;    
+}
+
+.contact-section .w-50{
+    flex: 0 0 50%;
+    padding: 0 15px;
+    max-width: 50%;
+}
+
+.contact-section .input-group{
+    margin: 0 0 25px;
+    transition: all 0.3s ease;
+    /* border-radius: 30px; */
+}
+
+/* .contact-section .input-group::after{
+    border-radius: 30px;
+} */
+
+.contact-section .input-group .input-control{
+    height: 45px;
+    display: block;
+    width: 100%;
+    /* border-radius: 30px; */
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 0 15pxs;
+    color: var(--text-black-700);
+}
+
+.contact-section .input-group textarea.input-control{
+    height: 184px;
+    padding-top: 15px;
+    resize: none;
+}
+
+.contact-section .submit-btn{
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: right;
+    padding: 0 15px;
+}
+
+.input-group ::placeholder{
+    padding-left: 20px;
+}
