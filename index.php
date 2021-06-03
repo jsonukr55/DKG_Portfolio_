@@ -34,10 +34,9 @@
             <ul>
                 <li><a href="#Home" class=" link-items inner-shadow active">home</a></li>
                 <li><a href="#about" class=" link-items outer-shadow hover-in-shadow">about</a></li>
-                <li><a href="#contact-me" class=" link-items outer-shadow hover-in-shadow">contact me</a></li>
                 <li><a href="#services" class=" link-items outer-shadow hover-in-shadow">services</a></li>
                 <li><a href="asset/Resume.pdf" class=" link-items outer-shadow hover-in-shadow">resume</a></li>
-
+                <li><a href="#contact-me" class=" link-items outer-shadow hover-in-shadow">contact me</a></li>
             </ul>
         </div>
     </nav>
