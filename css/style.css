@@ -424,7 +424,7 @@ img{
 /* -----------about me ----------- */
 
 .about-section{
-    padding: 80px 0 0;
+    padding: 80px 0 80px;
     min-height: 100vh;
 }
 
@@ -470,8 +470,8 @@ img{
 }
 
 .about-section .about-info{
-    flex: 0 0 70%;
-    max-width: 70%;
+    flex: 0 0 60%;
+    max-width: 60%;
     padding: 0 15px;
 }
  
