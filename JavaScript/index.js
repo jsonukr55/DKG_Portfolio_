@@ -1,6 +1,6 @@
 // nav
 
-(()=>{
+(() =>{
     const hamburgerBtn = document.querySelector(".hamburger-btn"),
     navMenu = document.querySelector(".nav-menu"),
     closeNavBtn = navMenu.querySelector(".close-nav-menu");
@@ -10,12 +10,12 @@
 
     function showNavMenu(){
         navMenu.classList.add("open");
-        // bodyScrollingToggle();
+        bodyScrollingToggle();
     }
     function hideNavMenu(){
         navMenu.classList.remove("open");
         fadeOutEffect();
-        // bodyScrollingToggle();
+        bodyScrollingToggle();
     }
     function fadeOutEffect(){
         document.querySelector(".fade-out-effect").classList.add("active");
@@ -54,6 +54,7 @@
                     })
                     fadeOutEffect();
                 }
+                window.location.hash = hash;
             }
         }
     })
@@ -81,11 +82,15 @@
     })
 })();
 
+function bodyScrollingToggle(){
+    document.body.classList.toggle("hidden-scrolling");
+}
+
 // hide
 
 (() =>{
-    const section = document.querySelectorAll(".section");
-    section.forEach((section)=>{
+    const sections = document.querySelectorAll(".section");
+    sections.forEach((section) =>{
         if(!section.classList.contains("active")){
             section.classList.add("hide");
         }

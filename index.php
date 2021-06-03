@@ -32,9 +32,10 @@
         <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
         <div class="nav-menu-inner">
             <ul>
-                <li><a herf="#home" class=" link-items inner-shadow active">home</a></li>
+                <li><a href="#Home" class=" link-items inner-shadow active">home</a></li>
                 <li><a href="#about" class=" link-items outer-shadow hover-in-shadow">about</a></li>
                 <li><a href="#contact-me" class=" link-items outer-shadow hover-in-shadow">contact me</a></li>
+                <li><a href="#services" class=" link-items outer-shadow hover-in-shadow">services</a></li>
                 <li><a href="asset/Resume.pdf" class=" link-items outer-shadow hover-in-shadow">resume</a></li>
 
             </ul>
@@ -44,7 +45,7 @@
     </div>
     <!-- Navigations end -->
     <!-- Home sec -->
-    <section class="home-section section active" id="home">
+    <section class="home-section section active" id="Home">
         <div class="effect-wrap">
             <div class="effect effect-1">
             </div>
