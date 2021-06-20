@@ -96,3 +96,12 @@ function bodyScrollingToggle(){
         }
     })
 })();
+
+
+// style switcher js 
+
+const styleSwitcherToggler = document.querySelector(".day-night");
+styleSwitcherToggler.addEventListener("click", () =>{
+    // document.querySelector()
+    console.log("hi")
+})
